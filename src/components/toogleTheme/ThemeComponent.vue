@@ -17,8 +17,8 @@ const toggleTheme = async (event: MouseEvent) => {
   const x = event.offsetX; // 获取鼠标点击的x坐标，当前元素左上角为原点   event.clientX;
   const y = event.offsetY; // 获取鼠标点击的y坐标，当前元素左上角为原点   event.clientY;
   const endRadius = Math.hypot(Math.max(x, innerWidth - x), Math.max(y, innerHeight - y));  // 获取鼠标点击位置到屏幕边缘的最大距离
-  const rootDom = domRef.value as HTMLDivElement;
-  let isDark: boolean = theme.value === 'dark';
+  // const rootDom = domRef.value as HTMLDivElement;
+  // let isDark: boolean = theme.value === 'dark';
   /**
    * 1. 通过document.startViewTransition()方法，我们可以在视图切换时，获取到一个Transition对象
    */
