@@ -8,8 +8,11 @@ import "@/assets/global.css"
 import 'virtual:svg-icons-register'
 import SvgIcon from "@/common/SvgIcon.vue";
 const app = createApp(App);
+import { inject } from '@vercel/analytics';
+import { injectSpeedInsights } from '@vercel/speed-insights';
 
-
+injectSpeedInsights();
+inject();
 app.component('svg-icon', SvgIcon)
 
 // // 应用级别的错误处理器
