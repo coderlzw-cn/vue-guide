@@ -14,6 +14,9 @@ dependencies:
   '@unocss/reset':
     specifier: ^0.58.3
     version: 0.58.3
+  '@vercel/speed-insights':
+    specifier: ^1.0.9
+    version: 1.0.9(vue@3.4.7)
   vue:
     specifier: ^3.3.11
     version: 3.4.7(typescript@5.3.3)
@@ -1197,6 +1200,33 @@ packages:
     transitivePeerDependencies:
       - rollup
     dev: true
+
+  /@vercel/speed-insights@1.0.9(vue@3.4.7):
+    resolution: {integrity: sha512-f+XFP0O+aZ4Olj9h+BitkB1b4NJQaxtyCb69wWuDxytJHY6Pa4QtZPdBUftHOcajUCHRVeq062fk3MKXKtjNVQ==}
+    requiresBuild: true
+    peerDependencies:
+      '@sveltejs/kit': ^1 || ^2
+      next: '>= 13'
+      react: ^18 || ^19
+      svelte: ^4
+      vue: ^3
+      vue-router: ^4
+    peerDependenciesMeta:
+      '@sveltejs/kit':
+        optional: true
+      next:
+        optional: true
+      react:
+        optional: true
+      svelte:
+        optional: true
+      vue:
+        optional: true
+      vue-router:
+        optional: true
+    dependencies:
+      vue: 3.4.7(typescript@5.3.3)
+    dev: false
 
   /@vitejs/plugin-vue@4.6.2(vite@5.0.11)(vue@3.4.7):
     resolution: {integrity: sha512-kqf7SGFoG+80aZG6Pf+gsZIVvGSCKE98JbiWqcCV9cThtg91Jav0yvYFC9Zb+jKetNGF6ZKeoaxgZfND21fWKw==}

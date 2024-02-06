@@ -20,10 +20,12 @@ import ThemeComponent from "@/components/toogleTheme/ThemeComponent.vue";
 
 onMounted(() => {
 })
+import { SpeedInsights } from "@vercel/speed-insights/next"
 
 </script>
 
 <template>
+  <speed-insights/>
   <button class="button" @click="  tip({ type: 'warn', str: '我是提示框' }) ">click</button>
 
 

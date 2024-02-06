@@ -7,7 +7,6 @@ import App from './App.vue'
 import "@/assets/global.css"
 import 'virtual:svg-icons-register'
 import SvgIcon from "@/common/SvgIcon.vue";
-
 const app = createApp(App);
 
 
