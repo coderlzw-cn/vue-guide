@@ -1,0 +1,18 @@
+name: GitHub Action Demo
+on: [push]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    # 发送邮件    
+    - name: Send email
+      uses: dawidd6/action-send-mail@v3
+      with:
+        server_address: smtp.qq.com
+        server_port: 465
+        username: ${{secrets.MAIL_USERNAME}}
+        password: ${{secrets.MAIL_PASSWORD}}
+        subject: Github Actions job result
+        to: ${{secrets.MAIL_TOUSERNAME}}
+        from: ${{secrets.MAIL_USERNAME}}
+        body: ${{github.repository}} push log
