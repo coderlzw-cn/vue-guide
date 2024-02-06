@@ -1,7 +1,8 @@
 /*@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@600&family=Noto+Serif+SC:wght@300&display=swap');*/
-@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&family=Noto+Serif+SC:wght@300;600&display=swap');
+/*@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&family=Noto+Serif+SC:wght@300;600&display=swap');*/
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+SC&display=swap');
 body {
-    font-family: 'Noto Serif SC', serif;
+    font-family: 'Noto Sans SC', sans-serif;
     font-size: 16px;
     line-height: 1.5;
     color: #333;
