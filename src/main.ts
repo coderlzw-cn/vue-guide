@@ -43,3 +43,4 @@ app.component('svg-icon', SvgIcon)
 app.mount('#app')
 
 console.log("main.ts loaded!")
+console.log("main.ts loaded!")
